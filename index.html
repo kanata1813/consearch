@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/import.css">
+    <link rel="icon" type="image/png" href="./img/favicon.ico" sizes="16x16 24x24 32x32 48x48 64x64" />
+
+    <title>consearch</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--検索結果として表示されない-->
+    <meta name="robots" content="none">
+</head>
+
+<body>
+
+    <!--ヘッダー-->
+    <header id="header">
+        <div class="header__con">
+            <!--ヘッダーロゴ-->
+            <a class="header__con__link" href="#main">
+                <img class="header__con__link__img" src="img/logo_new.svg" alt="ヘッダーロゴ">
+            </a>
+            <!--ヘッダーリスト-->
+            <ul class="header__con__list">
+                <li class="header__con__list__menu">
+                    <a class="header__con__list__menu__link" href="#use">
+                        使い方
+                    </a>
+                </li>
+                <li class="header__con__list__menu">
+                    <a class="header__con__list__menu__link" href="#fav">
+                        お気に入り
+                    </a>
+                </li>
+                <li class="header__con__list__menu">
+                    <a class="header__con__list__menu__link" href="#inf">
+                        情報ゲット
+                    </a>
+                </li>
+                <li class="header__con__list__menu">
+                    <a class="header__con__list__menu__link" href="#push">
+                        プッシュ通知
+                    </a>
+                </li>
+                <li class="header__con__list__menu">
+                    <a class="header__con__list__menu__link" href="#faq">
+                        FAQ
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--ハンバーガーメニュー-->
+        <div class="header__hummenu__back">
+            <input type="checkbox" id="header__hummenu__back__input">
+            <label for="header__hummenu__back__input" class="header__hummenu__back__btn">
+                <span></span>
+            </label>
+            <div class="header__hummenu__back__con">
+                <ul class="header__hummenu__list">
+                    <li class="header__hummenu__list__menu">
+                        <a class="header__hummenu__list__menu__link" href="#use">
+                            使い方
+                        </a>
+                    </li>
+                    <li class="header__hummenu__list__menu">
+                        <a class="header__hummenu__list__menu__link" href="#fav">
+                            お気に入り
+                        </a>
+                    </li>
+                    <li class="header__hummenu__list__menu">
+                        <a class="header__hummenu__list__menu__link" href="#inf">
+                            情報ゲット
+                        </a>
+                    </li>
+                    <li class="header__hummenu__list__menu">
+                        <a class="header__hummenu__list__menu__link" href="#push">
+                            プッシュ通知
+                        </a>
+                    </li>
+                    <li class="header__hummenu__list__menu">
+                        <a class="header__hummenu__list__menu__link" href="#faq">
+                            FAQ
+                        </a>
+                    </li>
+                    <li class="header__hummenu__list__menu">
+                        <a class="header__hummenu__list__menu__link" href="index.html">
+                            トップへ戻る
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--メインビジュアル-->
+    <div id="main">
+        <div class="main__con fadeUpTrigger">
+            <!--メインビジュアルのテキスト部分-->
+            <div class="main__con__text">
+                <p class="main__con__text__back">
+                </p>
+                <p class="main__con__text__backradius">
+                </p>
+                <div class="main__con__text__con">
+                    <img class="main__con__text__con__img" src="img/titletext.svg" alt="タイトルテキスト">
+                    <img class="main__con__text__con__imgsp" src="img/titletext_sp.svg" alt="タイトルテキスト スマホ版">
+                    <div class="main__con__smartphone">
+                        <img class="main__con__smartphone__iphone" src=" ./img/iphone.svg " alt="iphoneロゴ">
+                        <img class="main__con__smartphone__android" src=" ./img/android.png " alt="androidロゴ">
+                    </div>
+                </div>
+                <div class="main__con__vis">
+                    <img class="main__con__vis__smart" src="./img/smartphone_vis.png" alt="スマホ">
+                </div>
+                <div class="main__con__vissp">
+                    <img class="main__con__vissp__smart" src="./img/smartphome_vis_sp.png" alt="スマホ">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--説明-->
+    <!--ようこそ-->
+    <div id="welcome" class="fadeUpTrigger">
+        <img class="welcome__back" src="./img/Welcome.svg" alt="背景">
+        <img class="text__title" src="./img/wel_tit.svg" alt="タイトル">
+        <p class="exp__text">
+            consearchでは<br> 商業施設にある飲食店の
+            <br> 混雑状況を配信しています
+        </p>
+    </div>
+    <div id="use" class="fadeUpTrigger">
+        <img class="text__title" src="./img/use_tit.svg" alt="タイトル">
+        <div class="exp__flex">
+            <!-- Chrome と Firefox と Safari で再生可能 (IE, Edge ではアニメは再生できません) -->
+            <picture class="exp__flex__img">
+                <!-- Chrome 用 -->
+                <source class="exp__flex__img__pakapaka" type="image/webp" srcset="./img/pakapaka1.webp" />
+                <!-- Firefox, Safari 用 -->
+                <img class="exp__flex__img__pakapaka" src="./img/pakapaka1.png" alt="パカパカアニメ1">
+            </picture>
+            <p class="exp__flex__text">
+                スマホ1つで<br> 飲食店の混雑状況を
+                <br> 知ることができます
+            </p>
+        </div>
+    </div>
+    <div id="fav" class="fadeUpTrigger">
+        <img class="text__title" src="./img/fav_tit.svg" alt="タイトル">
+        <div class="exp__flex">
+            <!-- Chrome と Firefox と Safari で再生可能 (IE, Edge ではアニメは再生できません) -->
+            <picture class="exp__flex__img">
+                <!-- Chrome 用 -->
+                <source class="exp__flex__img__pakapaka" type="image/webp" srcset="./img/pakapaka2.webp" />
+                <!-- Firefox, Safari 用 -->
+                <img class="exp__flex__img__pakapaka" src="./img/pakapaka2.png" alt="パカパカアニメ1">
+            </picture>
+            <p class="exp__flex__text">
+                ユーザー登録をし<br> 「お気に入り店舗」を登録すると、
+                <br> もっと簡単に
+                <br> 混雑状況を確認できます
+            </p>
+        </div>
+    </div>
+    <div id="inf" class="fadeUpTrigger">
+        <img class="text__title" src="./img/inf_tit.svg" alt="タイトル">
+        <div class="exp__flex">
+            <!-- Chrome と Firefox と Safari で再生可能 (IE, Edge ではアニメは再生できません) -->
+            <picture class="exp__flex__img">
+                <!-- Chrome 用 -->
+                <source class="exp__flex__img__pakapaka" type="image/webp" srcset="./img/pakapaka3.webp" />
+                <!-- Firefox, Safari 用 -->
+                <img class="exp__flex__img__pakapaka" src="./img/pakapaka3.png" alt="パカパカアニメ1">
+            </picture>
+            <p class="exp__flex__text">
+                「お知らせ」で<br> 公式サイトの店舗情報を
+                <br> チェックできます
+            </p>
+        </div>
+    </div>
+    <div id="push" class="fadeUpTrigger">
+        <img class="text__title" src="./img/push_tit.svg" alt="タイトル">
+        <div class="exp__flex">
+            <!-- Chrome と Firefox と Safari で再生可能 (IE, Edge ではアニメは再生できません) -->
+            <picture class="exp__flex__img">
+                <!-- Chrome 用 -->
+                <source class="exp__flex__img__pakapaka" type="image/webp" srcset="./img/pakapaka4.webp" />
+                <!-- Firefox, Safari 用 -->
+                <img class="exp__flex__img__pakapaka" src="./img/pakapaka4.png" alt="パカパカアニメ1">
+            </picture>
+            <p class="exp__flex__text">
+                設定をすれば特定の時間・曜日に<br> 混雑状況の通知が届きます
+                <br> アプリを開かなくても
+                <br> 情報を知ることができます
+                <br>
+            </p>
+        </div>
+    </div>
+    <!--FAQ(よくある質問)-->
+    <div id="faq" class="fadeUpTrigger">
+        <img class="text__title" src="./img/FAQ.svg" alt="タイトル">
+        <div class="faq__con ">
+            <dl>
+                <dt class="faq__con__q ">他店舗のイオンで利用できますか?</dt>
+                <dd>
+                    <p class="faq__con__a ">いえ、それはできません</p>
+                </dd>
+            </dl>
+            <div class="faq__con ">
+                <dl>
+                    <dt class="faq__con__q ">テイクアウトの待ち人数を確認できますか?</dt>
+                    <dd>
+                        <p class="faq__con__a ">いえ、それはできません</p>
+                    </dd>
+                </dl>
+                <div class="faq__con ">
+                    <dl>
+                        <dt class="faq__con__q ">ナイトモードはありますか?</dt>
+                        <dd>
+                            <p class="faq__con__a ">はい、ございます</p>
+                        </dd>
+                    </dl>
+                    <div class="faq__con ">
+                        <dl>
+                            <dt class="faq__con__q ">webサイト版はありますか?</dt>
+                            <dd>
+                                <p class="faq__con__a ">いえ、ございません</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--こんサーチインストール部分-->
+    <div id="install">
+        <img class="install__img" src="img/logo_new.svg" alt="ロゴ">
+        <p class=" install__text">
+            アプリをダウンロードして、<br class="install__text__br">混雑状況をチェックしよう
+        </p>
+        <div class="install__con">
+            <div class="install__con__iphone">
+                <img class="install__con__iphone__logo" src=" ./img/iphone.svg" alt="iphoneロゴ">
+                <img class="install__con__iphone__qr" src=" ./img/qr.png" alt="iphoneのQRコード">
+            </div>
+            <div class="install__con__android">
+                <img class="install__con__android__logo" src=" ./img/android.png" alt="androidロゴ">
+                <img class="install__con__android__qr" src=" ./img/qr.png" alt="androidのQRコード">
+            </div>
+        </div>
+        <p class="install__des">
+            Apple、Apple ロゴ、iPhoneは米国およびその他の国々で登録されたApple Inc.の商標です。<br> iPhoneの商標は、アイホン株式会社のライセンスにもとづき使用されています。
+            <br> App Storeは、Apple Inc.のサービスマークです。<br> Google Play、Google Play ロゴ、Androidは、Google LLCの商標です。
+        </p>
+    </div>
+
+    <!--フッター-->
+    <footer id="footer">
+        <ul class="footer__con__list">
+            <li class="footer__con__list__menu">
+                <a class="footer__con__list__menu__link " href="#use">
+                    © 2022 kanahasegawa All rights reserved.
+                </a>
+            </li>
+            <li class="footer__con__list__menu">
+                <a class="footer__con__list__menu__link " href="riyokiyaku.html">
+                    利用規約
+                </a>
+            </li>
+            <li class="footer__con__list__menu">
+                <a class="footer__con__list__menu__link" href="pri.html">
+                    プライバシーポリシー
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <!--自作JS-->
+    <script src=" ./js/jquery-3.6.0.min.js "></script>
+    <script src=" ./js/header.js "></script>
+    <script src=" ./js/hummenu.js "></script>
+    <script src=" ./js/faq.js"></script>
+    <script src=" ./js/fadein.js "></script>
+
+</body>
+
+</html>

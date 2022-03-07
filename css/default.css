@@ -1,0 +1,66 @@
+/*共通部分*/
+
+:root {
+    /*色アセット*/
+    --color_b: #4B4B4B;
+    --color_w: #ffffff;
+    --color_p: #E75180;
+    --color_y: #E5AF22;
+    --color_gr: #727272;
+    /*サイズアセット*/
+    --mar_pc_s: 20px;
+    --mar_pc_b: 80px;
+}
+
+
+/*共通*/
+
+* {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    letter-spacing: 3px;
+    line-height: 1.5em
+}
+
+body {
+    background-color: var(--color_w);
+    z-index: -1;
+}
+
+
+/*pタグの設定*/
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+/*リンクの青線を消す*/
+
+a {
+    text-decoration: none;
+    color: var(--color_b);
+}
+
+
+/*タイトル専用の文字指定*/
+
+.text__title {
+    text-align: center;
+    display: block;
+    margin: 0 auto 40px auto;
+}
+
+.tit {
+    letter-spacing: 6px;
+    margin-top: 16px;
+}
+
+
+/* 一部ブラウザで消えなかった場合は以下も追記 */
+
+summary::-webkit-details-marker {
+    display: none;
+}

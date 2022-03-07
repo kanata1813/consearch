@@ -1,0 +1,47 @@
+/*cssのimport専用css*/
+
+
+/*リセットcss*/
+
+@import url("./reset/sanitize.css");
+
+/*index.html*/
+
+
+/*共通のcss*/
+
+@import url("./default.css");
+@import url("./style.css");
+
+/*パーツ部分のcss*/
+
+@import url("./header.css");
+@import url("./main.css");
+@import url("./exp.css");
+@import url("./faq.css");
+@import url("./install.css");
+@import url("./footer.css");
+
+/*riyokiyaku.html*/
+
+@import url("./riyokiyaku.css");
+
+/*その他のcss*/
+
+
+/*スライドショーのcss*/
+
+
+/*
+@import url("./slider.css");
+
+*/
+
+
+/*ハンバーガーメニューのcss*/
+
+@import url("./hummenu.css");
+
+/*アニメーションのcss*/
+
+@import url("./animetion.css");
