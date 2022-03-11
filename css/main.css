@@ -83,13 +83,14 @@
 }
 
 #main .main__con__vis {
-    margin-top: -150px;
+    margin-top: -120px;
     margin-left: 240px;
 }
 
 #main .main__con__vis__smart {
-    width: 350px;
+    width: 450px;
     filter: drop-shadow(8px 8px 20px rgb(75, 75, 75, 0.6));
+    margin-top: -150px;
 }
 
 #main .main__con__vissp {
@@ -154,6 +155,7 @@
     }
     #main .main__con__text__con__imgsp {
         display: block;
+        margin: 0 auto;
         margin-bottom: 24px;
         width: 307px;
     }
