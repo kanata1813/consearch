@@ -95,16 +95,16 @@
         margin-bottom: 20px;
     }
     #faq .faq__con__q::before {
-        font-size: 20px;
-        margin-right: 4px;
+        font-size: 16px;
+        margin-right: 2px;
     }
     #faq .faq__con__q,
     #faq .faq__con__a {
-        font-size: 16px;
+        font-size: 12px;
     }
     #faq .faq__con__a::before {
-        font-size: 20px;
-        margin-right: 4px;
+        font-size: 16px;
+        margin-right: 2px;
     }
     #faq .faq__con dl::before {
         position: absolute;
@@ -121,6 +121,8 @@
         transition-timing-function: ease-in;
         border-top: 2px solid var(--color_w);
         border-right: 2px solid var(--color_w);
+        margin-right: 4px;
+        margin-top: 2px;
     }
     #faq .faq__con .open::before {
         transform: rotate(-45deg);
@@ -129,29 +131,3 @@
         margin: 20px 0 0;
     }
 }
-
-
-/*959px以下の場合*/
-
-
-/*
-@media (max-width: 959px) {
-    #faq {
-        padding: var(--mar_pc_b) var(--mar_pc_s);
-    }
-    #faq .faq__title {
-        font-size: 36px;
-    }
-    #faq .faq__hosoku {
-        font-size: 12px;
-    }
-    #faq .faq__con__q,
-    #faq .faq__con__q__a p {
-        font-size: 16px;
-    }
-    #faq .faq__con__q::before,
-    #faq .faq__con__q__a p::before {
-        font-size: 24px;
-    }
-}
-*/
